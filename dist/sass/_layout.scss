@@ -1,5 +1,64 @@
 @import "custom-variables";
 
+.container{
+	width: $desktopContainerWidth;
+	margin: 0 auto;
+}
+.icon{
+	display: inline-block;
+}
+//standart form style
+.form-control{
+	display: inline-block;
+	height: 57px;
+	padding: 0 15px;
+	border-radius: 2px;
+	font-size: 16px;
+	color: $formControlTexrColor;
+}
+.form-btn{
+	display: inline-block;
+	height: 57px;
+	border-radius: 2px;
+	font-size: 16px;
+	color: #fff;
+	font-weight: 600;
+	background: $generalOrangeColor;
+	text-transform: uppercase;
+	padding: 0 27px;
+	&:hover{
+		background: $generalOrangeHover;
+	}
+}
+.header{
+	height: $desktopHeaderHeight;
+	width: 100%;
+	background: #fff;
+
+	.logo{
+		float: left;
+		padding-top: 15px;
+	}
+	.header-nav{
+		float: right;
+		margin-top: 25px;
+
+		li{
+			display: inline-block;
+			margin-right: 25px;
+
+			a{
+				font-size: 16px;
+				&:hover{
+					color: $generalOrangeColor;
+				}
+				span{
+					margin-left: 15px;
+				}
+			}
+		}
+	}
+}
 
 
 

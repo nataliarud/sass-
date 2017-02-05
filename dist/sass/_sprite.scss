@@ -1,0 +1,189 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$bag-ic-name: 'bag-ic';
+$bag-ic-x: 0px;
+$bag-ic-y: 70px;
+$bag-ic-offset-x: 0px;
+$bag-ic-offset-y: -70px;
+$bag-ic-width: 35px;
+$bag-ic-height: 33px;
+$bag-ic-total-width: 132px;
+$bag-ic-total-height: 103px;
+$bag-ic-image: '../img/sprite.png';
+$bag-ic: (0px, 70px, 0px, -70px, 35px, 33px, 132px, 103px, '../img/sprite.png', 'bag-ic', );
+$build-ic-name: 'build-ic';
+$build-ic-x: 105px;
+$build-ic-y: 0px;
+$build-ic-offset-x: -105px;
+$build-ic-offset-y: 0px;
+$build-ic-width: 27px;
+$build-ic-height: 35px;
+$build-ic-total-width: 132px;
+$build-ic-total-height: 103px;
+$build-ic-image: '../img/sprite.png';
+$build-ic: (105px, 0px, -105px, 0px, 27px, 35px, 132px, 103px, '../img/sprite.png', 'build-ic', );
+$child-ic-name: 'child-ic';
+$child-ic-x: 0px;
+$child-ic-y: 0px;
+$child-ic-offset-x: 0px;
+$child-ic-offset-y: 0px;
+$child-ic-width: 35px;
+$child-ic-height: 35px;
+$child-ic-total-width: 132px;
+$child-ic-total-height: 103px;
+$child-ic-image: '../img/sprite.png';
+$child-ic: (0px, 0px, 0px, 0px, 35px, 35px, 132px, 103px, '../img/sprite.png', 'child-ic', );
+$hands-ic-name: 'hands-ic';
+$hands-ic-x: 35px;
+$hands-ic-y: 35px;
+$hands-ic-offset-x: -35px;
+$hands-ic-offset-y: -35px;
+$hands-ic-width: 35px;
+$hands-ic-height: 34px;
+$hands-ic-total-width: 132px;
+$hands-ic-total-height: 103px;
+$hands-ic-image: '../img/sprite.png';
+$hands-ic: (35px, 35px, -35px, -35px, 35px, 34px, 132px, 103px, '../img/sprite.png', 'hands-ic', );
+$house-ic-name: 'house-ic';
+$house-ic-x: 70px;
+$house-ic-y: 0px;
+$house-ic-offset-x: -70px;
+$house-ic-offset-y: 0px;
+$house-ic-width: 35px;
+$house-ic-height: 34px;
+$house-ic-total-width: 132px;
+$house-ic-total-height: 103px;
+$house-ic-image: '../img/sprite.png';
+$house-ic: (70px, 0px, -70px, 0px, 35px, 34px, 132px, 103px, '../img/sprite.png', 'house-ic', );
+$human-ic-name: 'human-ic';
+$human-ic-x: 35px;
+$human-ic-y: 70px;
+$human-ic-offset-x: -35px;
+$human-ic-offset-y: -70px;
+$human-ic-width: 29px;
+$human-ic-height: 30px;
+$human-ic-total-width: 132px;
+$human-ic-total-height: 103px;
+$human-ic-image: '../img/sprite.png';
+$human-ic: (35px, 70px, -35px, -70px, 29px, 30px, 132px, 103px, '../img/sprite.png', 'human-ic', );
+$hummer-ic-name: 'hummer-ic';
+$hummer-ic-x: 70px;
+$hummer-ic-y: 34px;
+$hummer-ic-offset-x: -70px;
+$hummer-ic-offset-y: -34px;
+$hummer-ic-width: 35px;
+$hummer-ic-height: 34px;
+$hummer-ic-total-width: 132px;
+$hummer-ic-total-height: 103px;
+$hummer-ic-image: '../img/sprite.png';
+$hummer-ic: (70px, 34px, -70px, -34px, 35px, 34px, 132px, 103px, '../img/sprite.png', 'hummer-ic', );
+$museum-ic-name: 'museum-ic';
+$museum-ic-x: 35px;
+$museum-ic-y: 0px;
+$museum-ic-offset-x: -35px;
+$museum-ic-offset-y: 0px;
+$museum-ic-width: 35px;
+$museum-ic-height: 35px;
+$museum-ic-total-width: 132px;
+$museum-ic-total-height: 103px;
+$museum-ic-image: '../img/sprite.png';
+$museum-ic: (35px, 0px, -35px, 0px, 35px, 35px, 132px, 103px, '../img/sprite.png', 'museum-ic', );
+$scales-ic-name: 'scales-ic';
+$scales-ic-x: 0px;
+$scales-ic-y: 35px;
+$scales-ic-offset-x: 0px;
+$scales-ic-offset-y: -35px;
+$scales-ic-width: 35px;
+$scales-ic-height: 35px;
+$scales-ic-total-width: 132px;
+$scales-ic-total-height: 103px;
+$scales-ic-image: '../img/sprite.png';
+$scales-ic: (0px, 35px, 0px, -35px, 35px, 35px, 132px, 103px, '../img/sprite.png', 'scales-ic', );
+$search-ic-name: 'search-ic';
+$search-ic-x: 105px;
+$search-ic-y: 35px;
+$search-ic-offset-x: -105px;
+$search-ic-offset-y: -35px;
+$search-ic-width: 19px;
+$search-ic-height: 19px;
+$search-ic-total-width: 132px;
+$search-ic-total-height: 103px;
+$search-ic-image: '../img/sprite.png';
+$search-ic: (105px, 35px, -105px, -35px, 19px, 19px, 132px, 103px, '../img/sprite.png', 'search-ic', );
+$spritesheet-width: 132px;
+$spritesheet-height: 103px;
+$spritesheet-image: '../img/sprite.png';
+$spritesheet-sprites: ($bag-ic, $build-ic, $child-ic, $hands-ic, $house-ic, $human-ic, $hummer-ic, $museum-ic, $scales-ic, $search-ic, );
+$spritesheet: (132px, 103px, '../img/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
