@@ -122,9 +122,30 @@ button {
   display: inline-block;
   vertical-align: middle; }
 
+.grey-bg {
+  background: #f6f8f8; }
+
+.orange-text {
+  color: #f26523; }
+
+.blue-bg {
+  background: #30436b; }
+
+.sub {
+  font-size: 12px;
+  color: inherit; }
+
+.blue-text {
+  color: #30436b;
+  font-weight: 600; }
+
 .container {
-  width: 1040px;
-  margin: 0 auto; }
+  width: 1060px;
+  margin: 0 auto;
+  padding: 0 10px; }
+
+.row {
+  margin: 0 -10px; }
 
 .icon {
   display: inline-block; }
@@ -151,6 +172,35 @@ button {
   padding: 0 27px; }
   .form-btn:hover {
     background: #ca5219; }
+
+.simple-text-block {
+  padding: 27px 0;
+  font-size: 18px;
+  color: #5a6464;
+  border-bottom: 1px solid #e4ebec; }
+
+.btn {
+  display: inline-block;
+  height: 46px;
+  line-height: 46px;
+  border: 1px solid transparent;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  text-align: center;
+  font-size: 16px;
+  padding: 0 25px; }
+  .btn.white-btn {
+    border-color: #fff;
+    color: #fff; }
+    .btn.white-btn:hover {
+      background: #fff;
+      color: #30436b; }
+  .btn.orange-btn {
+    border-color: #f26523;
+    color: #f26523; }
+    .btn.orange-btn:hover {
+      background: #f26523;
+      color: #fff; }
 
 .header {
   height: 89px;
@@ -255,3 +305,45 @@ button {
         width: 325px; }
       .inner .inner-block .inner-form input + input, .inner .inner-block .inner-form select + input {
         margin-left: 4px; }
+
+.service-wrap {
+  padding: 55px 0 70px 0;
+  overflow: hidden; }
+  .service-wrap .service-item {
+    float: left;
+    padding: 0 10px;
+    width: 33.3333%; }
+    .service-wrap .service-item .title {
+      color: #f26523;
+      font-size: 20px; }
+    .service-wrap .service-item p {
+      width: 63%;
+      font-size: 16px; }
+
+.category-wrap {
+  padding: 60px 0 75px 0;
+  overflow: hidden; }
+  .category-wrap > .container > .title {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center; }
+  .category-wrap .news-row {
+    margin: 50px 0;
+    overflow: hidden; }
+  .category-wrap .news-post {
+    width: 33.3333%;
+    float: left; }
+    .category-wrap .news-post + .news-post {
+      padding-left: 25px; }
+    .category-wrap .news-post .news-content {
+      background: #fff;
+      border-top: 6px solid #90bed5;
+      -webkit-border-radius: 1px;
+              border-radius: 1px;
+      padding: 20px; }
+
+.category-btn {
+  text-align: center; }
+  .category-btn .btn {
+    margin: 0 12px; }

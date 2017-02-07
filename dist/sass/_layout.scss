@@ -3,6 +3,10 @@
 .container{
 	width: $desktopContainerWidth;
 	margin: 0 auto;
+	padding:0 10px;
+}
+.row{
+	margin: 0 -10px;
 }
 .icon{
 	display: inline-block;
@@ -30,6 +34,41 @@
 		background: $generalOrangeHover;
 	}
 }
+.simple-text-block{
+	padding: 27px 0;
+	font-size: 18px;
+	color: $simpleTextColor;
+	border-bottom: 1px solid #e4ebec;
+}
+
+// standart button
+.btn{
+	display: inline-block;
+	height: 46px;
+	line-height: 46px;
+	border: 1px solid transparent;
+	border-radius: 2px;
+	text-align: center;
+	font-size: 16px;
+	padding: 0 25px;
+	&.white-btn{
+		border-color: #fff;
+		color: #fff;
+		&:hover{
+			background: #fff;
+			color: $generalBlue;
+		}
+	}
+	&.orange-btn{
+		border-color: $generalOrangeColor;
+		color: $generalOrangeColor;
+		&:hover{
+			background: $generalOrangeColor;
+			color: #fff;
+		}
+	}
+}
+
 .header{
 	height: $desktopHeaderHeight;
 	width: 100%;
