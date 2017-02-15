@@ -68,6 +68,14 @@
 			color: #fff;
 		}
 	}
+		&.blue-btn{
+		border-color: #fff;
+		color: #fff;
+		&:hover{
+			background: #fff;
+			color: $generalBlue;
+		}
+	}
 }
 
 .header{
